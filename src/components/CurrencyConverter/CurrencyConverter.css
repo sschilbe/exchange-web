@@ -1,0 +1,32 @@
+.border {
+  border: 2px solid #535b6b;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+input, select {
+  display: block;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: .9vw;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+input, select{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+p {
+  font-size: 20px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
